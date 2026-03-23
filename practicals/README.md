@@ -14,3 +14,8 @@ using the native `cluster` module to fork processes across cpu cores for heavy t
 a tiny express-like router built from scratch with http server, routes, and middleware.
 - run: `node 03-mini-backend-framework/app.js`
 - test: http://localhost:3002 or POST to /data
+
+## 4. mongodb ecommerce analytics
+a practical ecommerce backend with mongoose covering schemas, crud operations, and complex aggregations.
+- run: `cd 04-mongodb-ecommerce-analytics && npm run dev`
+- endpoints: `/api/products`, `/api/orders`, `/api/analytics/total-revenue`, etc.
